@@ -1,0 +1,50 @@
+.app{
+  background-color: pink;
+  min-height: 100vh;
+  display: flex;
+}
+
+.app div{
+  flex: 1;
+}
+
+.joke-form{
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 30vw;
+  align-items: center;
+  padding: 10pt;
+  border-radius: 15pt;
+}
+
+.joke-form label{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: large;
+  font-weight: 500;
+}
+
+.joke-form label div{
+  margin-bottom: 10pt;
+}
+
+.joke-form label textarea{
+  border-radius: 5pt;
+  margin-bottom: 10pt;
+}
+
+.joke-form input{
+  width: 50%;
+  border-radius: 5pt;
+  background-color: yellowgreen;
+  border: none;
+}
+
+.joke-form div div{
+  background-color: orange;
+  margin-bottom: 5pt;
+  border-radius: 5pt;
+  padding: 5pt;
+}
